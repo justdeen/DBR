@@ -1,13 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://127.0.0.1:27017/relate')
-.then(() => {
-    console.log('CONNECTION OPEN')
-})
-.catch(err => {
-    console.log('CONNECTION ERROR')
-    console.log(err)
-})
+
 
 const { Schema } = mongoose
 
